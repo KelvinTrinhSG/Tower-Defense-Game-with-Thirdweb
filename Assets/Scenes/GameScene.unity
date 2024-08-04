@@ -371,7 +371,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e8ba152b888737428bb07dd63b96971, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pfWoodHarvester: {fileID: 668951702660380138, guid: 9dff0771aba8d604fac5e34ace4dcaf9, type: 3}
+  buildingType: {fileID: 11400000, guid: da4e940c8d2bfa34f8a825eac4f80da7, type: 2}
 --- !u!4 &675881265
 Transform:
   m_ObjectHideFlags: 0
