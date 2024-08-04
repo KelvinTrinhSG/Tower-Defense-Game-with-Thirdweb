@@ -22,7 +22,7 @@ public class ResourceManager : MonoBehaviour
             resourceAmountDictionary[resourceType] = 0;
         }
 
-        TestLogResourceAmountDictionary();
+        
     }
 
     private void Update()
@@ -30,7 +30,7 @@ public class ResourceManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.T)) {
             ResourceTypeListSO resourceTypeList = Resources.Load<ResourceTypeListSO>(typeof(ResourceTypeListSO).Name);
             AddResource(resourceTypeList.list[0],2);
-            TestLogResourceAmountDictionary();
+            
         }
     }
     private void TestLogResourceAmountDictionary()
@@ -46,7 +46,7 @@ public class ResourceManager : MonoBehaviour
 
         OnResourceAmountChanged?.Invoke(this, EventArgs.Empty);
 
-        TestLogResourceAmountDictionary();
+        
     }
 
     public int GetResourceAmount(ResourceTypeSO resourceType) {
